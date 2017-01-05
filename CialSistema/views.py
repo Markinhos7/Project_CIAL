@@ -1,7 +1,6 @@
 from django.shortcuts import render
 from urllib2 import urlopen
 import urllib2
-from BeautifulSoup import BeautifulSoup
 from bs4 import BeautifulSoup
 from .models import Equipo;
 
