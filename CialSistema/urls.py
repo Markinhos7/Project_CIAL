@@ -3,6 +3,8 @@ from. import views
 
 urlpatterns = [
 
-	 url(r'^$', views.obtener_titulo),
-	 url(r'^index/', views.obtener_equipo),
+	 #url(r'^$', views.post_list),
+	 url(r'index/(\d+)$',views.some_view),
+	 url(r'^$',views.GeneratePdf),
+	 url(r'index2/',views.post_list),
 ]
